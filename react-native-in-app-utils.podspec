@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author          = { "Chirag Jain" => "jain_chirag04@yahoo.com" }
   s.platform        = :ios, "9.0"
   s.source          = { :git => "https://github.com/vwpo/react-native-in-app-utils.git", :tag => "#{s.version}" }
-  s.source_files    = 'InAppUtils/*.{h,m}'
+  s.source_files    = "ios/**/*.{h,m,swift}"
 
   s.dependency 'React'
 
